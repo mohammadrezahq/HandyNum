@@ -1,0 +1,18 @@
+{
+    "name": "mor/handynum",
+    "description": "Handy number",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mor\\Handynum\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohammadrezahq",
+            "email": "mohammadrezah.official@gmail.com"
+        }
+    ],
+    "require": {}
+}
