@@ -9,9 +9,4 @@ use Mor\Handynum\App\Transform;
 class App 
 {
     use Compare, Operator, Transform;
-
-    public static function __callStatic($name, $arguments)
-    {
-        return (new self)->{$name}(...$arguments);
-    }
 }
