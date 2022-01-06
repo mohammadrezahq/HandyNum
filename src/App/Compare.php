@@ -105,4 +105,15 @@ trait Compare
         }
 
     }
+
+    public function inPercentage($num1, $percentage, $num2)
+    {
+        $percent = $this->percent($num1, $percentage);
+
+        if ($num2 <= $percent) {
+            return true;
+        }
+
+        return false;
+    }
 }
