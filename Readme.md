@@ -32,6 +32,8 @@ $handy->areEqual(8,8); // return true
 $handy->isBigger(7,5); // 7 is bigger than 5: return true
 $handy->isSmaller(7,5); // 7 is not smaller than 5: return false
 
+$handy->inPercentage(100,20,10); // check if "10" is smaller or equal to 20 percent of 100: return true
+$handy->inPercentage(100,20,21); // return false
 ```
 
 #### Operators
